@@ -8,7 +8,7 @@
 		<!-- FONTS -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&     display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
@@ -21,31 +21,33 @@
 					<img class="humburger-icon" src="img/Hamburger_icon.svg.png" alt="humburger" />
 					<ul class="site-header__list">
 						<li class="site-header__item">
-							<a class="site-header__link" href="#">Home</a>
+							<a class="site-header__link" href="index.html">Home</a>
 						</li>
 						<li class="site-header__item">
-							<a class="site-header__link" href="#">About me</a>
+							<a class="site-header__link" href="about.html">About me</a>
 						</li>
 						<li class="site-header__item">
-							<a class="site-header__link" href="#">My works</a>
+							<a class="site-header__link" href="mywork.html">My works</a>
 						</li>
 						<li class="site-header__item">
-							<button class="site-header__btn">Contact</button>
+							<a href="contact.html">
+								<button class="site-header__btn">Contact</button>
+							</a>
 						</li>
 					</ul>
 				</div>
 			</header>
 			<div class="site-section">
 				<div class="container">
-					<img class="site-section__vector" src="img/Vector 8.svg" alt="Vector" width="530" height="280" />
 					<h1 class="site-section__title">Adaptive Logo Design for Your Brand</h1>
-					<button class="site-section__btn">Explore works &#8594<button>
+					<div class="site-section__top">
+						<button class="site-section__btn">Explore works &#8594;</button>
+					</div>
 				</div>
 			</div>
 			<div class="site-main">
 				<div class="container main-container">
 					<div class="site-main__info">
-						<img class="site-main__info-vector" src="img/Vector 8.svg" alt="Vector" width="530" height="280" />
 						<h2 class="site-main__title">Let’s get know about me closer</h2>
 						<p class="site-main__text">
 							Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her
@@ -63,10 +65,12 @@
 			<div class="section-projects">
 				<div class="container">
 					<h2 class="section-projects_title">My Projects Highlight</h2>
-					<button class="section-projects__btn">Explore More &#8594</button>
+					<div class="site-section__top">
+						<button class="section-projects__btn">Explore More &#8594;</button>
+					</div>
 					<ul class="section-projects__list">
 						<li class="section-projects__item">
-							<a class="section-projects__links" href="#">
+							<a class="section-projects__links" href="projects.html">
 								<img src="img/jurney.svg" alt="jurney" width="560" height="620" />
 								<div class="section-projects__info">
 									<h4 class="section-projects__info-title">Brand JourneyImprovements</h4>
@@ -84,7 +88,7 @@
 							</a>
 						</li>
 						<li class="section-projects__item">
-							<a class="section-projects__links" href="#">
+							<a class="section-projects__links" href="projects.html">
 								<img src="img/brend.svg" alt="jurney" width="560" height="620" />
 								<div class="section-projects__info">
 									<h4 class="section-projects__info-title">Brand Grouping</h4>
@@ -102,7 +106,7 @@
 							</a>
 						</li>
 						<li class="section-projects__item">
-							<a class="section-projects__links" href="#">
+							<a class="section-projects__links" href="projects.html">
 								<img src="img/nft.svg" alt="jurney" width="560" height="620" />
 								<div class="section-projects__info">
 									<h4 class="section-projects__info-title">NFT Glimps</h4>
@@ -119,7 +123,7 @@
 							</a>
 						</li>
 						<li class="section-projects__item">
-							<a class="section-projects__links" href="#">
+							<a class="section-projects__links" href="projects.html">
 								<img src="img/sugges.svg" alt="jurney" width="560" height="620" />
 								<div class="section-projects__info">
 									<h4 class="section-projects__info-title">Brand Suggestions</h4>
@@ -165,14 +169,16 @@
 						<a class="site-footer__link" href="info@growl.com">info@aaronn.com</a>
 						<ul class="site-footer__list">
 							<li class="site-footer__item">
-								<img src="img/Brand-logo.svg" alt="aaronn" width="241" height="43" />
+								<img class="site-footer__aaron" src="img/Brand-logo.svg" alt="aaronn" width="241" height="43" />
 							</li>
 							<li class="site-footer__item">
-								<a class="site-footer__link1" href="#">Street Avenue 21, CA</a> <br />
-								<a class="site-footer__link1" href="#">0-8-00-888-000</a>
+								<a class="site-footer__link1" href="#">Street Avenue 21, CA</a>
+								<div class="footer-flex">
+									<a class="site-footer__link1" href="tel:0-8-00-888-000">0-8-00-888- <br />000</a>
+								</div>
 							</li>
 							<li class="site-footer__item">
-								<a class="site-footer__link3" href="#">+9 0283353</a>
+								<a class="site-footer__link3" href="tel:+9 0283353">+9 0283353</a>
 								<a class="site-footer__facebok" href="https://www.facebook.com/">
 									<img src="img/Vector.svg" alt="facebook" width="25" height="24" />
 								</a>
