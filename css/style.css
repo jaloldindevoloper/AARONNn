@@ -16,6 +16,10 @@ body {
 	font-family: 'Syne', 'Rubik', sans-serif;
 }
 
+img {
+	cursor: pointer;
+}
+
 a {
 	text-decoration: none;
 }
@@ -184,7 +188,7 @@ a {
 	line-height: 154%;
 	letter-spacing: 5.5%;
 	margin-bottom: 76px;
-	color: var(--color);
+	color: var(--text-color);
 }
 .site-main__btn {
 	font-weight: 600;
@@ -208,15 +212,15 @@ a {
 
 .site-main__gorizontal1 {
 	position: absolute;
-	right: 95%;
-	top: 60%;
+	right: 433px;
+	top: 270px;
 }
 
 .site-main__gorizontal2 {
 	position: absolute;
 	transform: rotate(90deg);
-	right: 20%;
-	top: -20%;
+	right: 60px;
+	top: -90px;
 }
 
 .humburger-icon {
@@ -594,7 +598,7 @@ svg {
 	font-size: 21px;
 	line-height: 39px;
 	letter-spacing: -0.66px;
-	color: var(--color);
+	color: var(--text-color);
 }
 .about-main__images {
 	position: relative;
